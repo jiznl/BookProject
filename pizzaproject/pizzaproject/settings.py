@@ -132,9 +132,9 @@ if DEBUG is True:
     MEDIA_URL = '/media/'
     MEDIA_ROOT=Path(BASE_DIR,'media')
 else:
-    STATIC_URL = '/var/www/static/'
+    STATIC_URL = '/static/'
     STATICFILES_DIRS = [
-        Path(BASE_DIR,"/var/www/static/")
+        Path(BASE_DIR,"/var/www/venv/BookProject/pizzaproject/static/")
     ]
     MEDIA_URL = '/media/'
-    MEDIA_ROOT=Path(BASE_DIR,'/var/www/ /media/')
+    MEDIA_ROOT=Path(BASE_DIR,'/var/www/venv/BookProject/pizzaproject/media/')
